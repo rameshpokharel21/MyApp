@@ -1,0 +1,26 @@
+
+steps to add certificate to ScratchOffInventory_0.0.5.0_x64.msix installer file
+
+1. right click the file
+2. click 'show more options'
+3. click properties
+4. click 'Digital Siganatures' tab
+5. click signature(ramesh with digest sha258 will be highlighted)
+6. click details
+7. view certificate
+8. Install certificate
+9. select Local Machine
+10. click Next, it will ask for computer admin password
+11. select 'place all certificates in the following store'
+12 Browse and select 'Trusted People'. Then click ok.
+13. click Next
+14. click Finish.
+15 It will give message "The import was successful". click ok.
+16. click ok to each open windows (Need to press ok 3 times more)
+17. Double click this file (ScratchOffInventory_0.0.5.0)x64.msix installer file)
+18 click install.
+19. It asks for installing dotnet 8.0. click install.
+20 file will be downloaded from microsoft 
+21. open downloaded file and double click to install dotnet 8.0.
+22. Open app by at going to start -> ScratchOffInventory app
+
